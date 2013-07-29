@@ -10,8 +10,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SHS.SmartCareMobileWeb</RootNamespace>
-    <AssemblyName>SHS.SmartCareMobileWeb</AssemblyName>
+    <RootNamespace>BackboneApplication</RootNamespace>
+    <AssemblyName>BackboneApplication</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
@@ -95,6 +95,18 @@
     <Content Include="ActivityPages\Login.ascx" />
     <Content Include="ActivityPages\Office\ListPages\MyCaseLoad.ascx" />
     <Content Include="Application.aspx" />
+    <Content Include="bin\BackboneApplication.dll" />
+    <Content Include="bin\BackboneApplication.pdb" />
+    <Content Include="bin\ICSharpCode.SharpZipLib.dll" />
+    <Content Include="bin\Nustache.Core.dll" />
+    <Content Include="bin\ServiceStack.Common.dll" />
+    <Content Include="bin\ServiceStack.dll" />
+    <Content Include="bin\ServiceStack.Interfaces.dll" />
+    <Content Include="bin\ServiceStack.OrmLite.dll" />
+    <Content Include="bin\ServiceStack.OrmLite.SqlServer.dll" />
+    <Content Include="bin\ServiceStack.Redis.dll" />
+    <Content Include="bin\ServiceStack.ServiceInterface.dll" />
+    <Content Include="bin\ServiceStack.Text.dll" />
     <Content Include="css\bootstrap-responsive.css" />
     <Content Include="css\bootstrap-responsive.min.css" />
     <Content Include="css\bootstrap.css" />
@@ -114,7 +126,25 @@
     <Content Include="font\fontawesome-webfont.ttf" />
     <Content Include="font\fontawesome-webfont.woff" />
     <Content Include="font\FontAwesome.otf" />
+    <Content Include="Scripts\SystemScripts\backbone.marionette.min.js.map">
+      <DependentUpon>backbone.marionette.js</DependentUpon>
+    </Content>
+    <Content Include="Scripts\SystemScripts\jquery-1.9.0.min.map" />
+    <None Include="Scripts\SystemScripts\jquery-2.0.3.intellisense.js" />
+    <Content Include="Scripts\SystemScripts\backbone.js" />
+    <Content Include="Scripts\SystemScripts\backbone.min.js" />
     <None Include="Scripts\SystemScripts\jquery-1.9.0.intellisense.js" />
+    <None Include="Scripts\SystemScripts\jquery-1.7.2.intellisense.js" />
+    <Content Include="Scripts\SystemScripts\jquery-1.7.2.js" />
+    <Content Include="Scripts\SystemScripts\jquery-1.7.2.min.js" />
+    <None Include="Scripts\SystemScripts\jquery-1.8.2.intellisense.js" />
+    <Content Include="Scripts\SystemScripts\jquery-1.8.2.js" />
+    <Content Include="Scripts\SystemScripts\jquery-1.8.2.min.js" />
+    <Content Include="Scripts\SystemScripts\jquery-1.9.0.js" />
+    <Content Include="Scripts\SystemScripts\jquery-1.9.0.min.js" />
+    <Content Include="Scripts\SystemScripts\jquery-2.0.3.js" />
+    <Content Include="Scripts\SystemScripts\jquery-2.0.3.min.js" />
+    <Content Include="Scripts\SystemScripts\jquery-2.0.3.min.map" />
     <Content Include="Scripts\PageScripts\Page7.js" />
     <Content Include="Scripts\PageScripts\Page0.js" />
     <Content Include="Scripts\PageScripts\Page6.js" />
@@ -124,18 +154,12 @@
     <Content Include="Scripts\SystemScripts\backbone.wreqr.min.js" />
     <Content Include="Scripts\SystemScripts\backgrid.js" />
     <Content Include="Scripts\SystemScripts\backgrid.min.js" />
-    <Content Include="Scripts\SystemScripts\jquery-1.9.0.js" />
-    <Content Include="Scripts\SystemScripts\jquery-1.9.0.min.js" />
-    <Content Include="Scripts\SystemScripts\jquery-1.9.0.min.map" />
-    <None Include="Scripts\SystemScripts\jquery-1.7.2.intellisense.js" />
     <Content Include="Scripts\Application\app.js" />
     <Content Include="Scripts\SystemScripts\handlebars.js" />
     <Content Include="Scripts\SystemScripts\handlebars.runtime.js" />
     <Content Include="Scripts\SystemScripts\backbone-localStorage.js" />
     <Content Include="Scripts\SystemScripts\backbone.eventbinder.js" />
-    <Content Include="Scripts\SystemScripts\backbone.js" />
     <Content Include="Scripts\SystemScripts\backbone.marionette.js" />
-    <Content Include="Scripts\SystemScripts\backbone.min.js" />
     <Content Include="Scripts\SystemScripts\backbone.syphon.js" />
     <Content Include="Scripts\SystemScripts\backbone.wreqr.js" />
     <Content Include="Scripts\SystemScripts\Base64.js" />
@@ -144,11 +168,6 @@
     <Content Include="Scripts\SystemScripts\bootstrap.min.js" />
     <Content Include="Scripts\SystemScripts\jq.mobi.js" />
     <Content Include="Scripts\SystemScripts\jq.mobi.min.js" />
-    <Content Include="Scripts\SystemScripts\jquery-1.7.2.js" />
-    <Content Include="Scripts\SystemScripts\jquery-1.7.2.min.js" />
-    <None Include="Scripts\SystemScripts\jquery-1.8.2.intellisense.js" />
-    <Content Include="Scripts\SystemScripts\jquery-1.8.2.js" />
-    <Content Include="Scripts\SystemScripts\jquery-1.8.2.min.js" />
     <Content Include="Scripts\SystemScripts\json2.js" />
     <Content Include="Scripts\SystemScripts\lodash.js" />
     <Content Include="Scripts\SystemScripts\lodash.min.js" />
@@ -180,7 +199,7 @@
     </Compile>
     <Compile Include="App_Code\AppHost\AppHost.cs" />
     <Compile Include="ServiceInterface\CoreDataList.cs" />
-    <Content Include="App_Code\ApplicationScripts.cs" />
+    <Compile Include="App_Code\ApplicationScripts.cs" />
     <Compile Include="Application.aspx.cs">
       <DependentUpon>Application.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

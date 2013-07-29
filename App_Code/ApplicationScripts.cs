@@ -36,7 +36,8 @@ public class ApplicationScripts : IHttpHandler
                     StringBuilder allScripts = new StringBuilder();
                     foreach (string fileName in GetScriptFileNames(screenId))
                     {
-                        allScripts.AppendLine(File.ReadAllText(context.Server.MapPath(fileName)));
+                        if (File.Exists(context.Server.MapPath(fileName)))
+                            allScripts.AppendLine(File.ReadAllText(context.Server.MapPath(fileName)));
                     }
 
                     // Send minfied string to output stream
