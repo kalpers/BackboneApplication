@@ -1,0 +1,11 @@
+C:\Users\kalpers\Documents\GitHub\BackboneApplication\obj\Debug\BackboneApplication.csprojResolveAssemblyReference.cache
+C:\Users\kalpers\Documents\GitHub\BackboneApplication\obj\Debug\SHS.SmartCareMobileWeb.dll
+C:\Users\kalpers\Documents\GitHub\BackboneApplication\bin\SHS.SmartCareMobileWeb.dll
+C:\Users\kalpers\Documents\GitHub\BackboneApplication\bin\SHS.SmartCareMobileWeb.pdb
+C:\Users\kalpers\Documents\GitHub\BackboneApplication\bin\ICSharpCode.SharpZipLib.xml
+C:\Users\kalpers\Documents\GitHub\BackboneApplication\bin\ServiceStack.xml
+C:\Users\kalpers\Documents\GitHub\BackboneApplication\bin\ServiceStack.Common.xml
+C:\Users\kalpers\Documents\GitHub\BackboneApplication\bin\ServiceStack.Interfaces.xml
+C:\Users\kalpers\Documents\GitHub\BackboneApplication\bin\ServiceStack.Redis.xml
+C:\Users\kalpers\Documents\GitHub\BackboneApplication\bin\ServiceStack.Text.xml
+C:\Users\kalpers\Documents\GitHub\BackboneApplication\obj\Debug\SHS.SmartCareMobileWeb.pdb
