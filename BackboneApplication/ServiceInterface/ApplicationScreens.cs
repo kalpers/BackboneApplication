@@ -109,6 +109,9 @@ namespace BackboneApplication.ServiceInterface
                     case 9:
                         return @"<a class=""small button"" pageid=""{{PageId}}"">{{DisplayAs}}</a>";
                         break;
+                    case 10:
+                        return processScreen(@"/ActivityPages/Office/ListPages/Services.ascx");
+                        break;
                     default:
                         return "";
                 }

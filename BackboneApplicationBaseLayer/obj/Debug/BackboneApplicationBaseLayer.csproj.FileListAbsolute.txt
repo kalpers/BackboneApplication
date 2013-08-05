@@ -1,0 +1,5 @@
+C:\Users\kalpers\Documents\GitHub\BackboneApplicationBaseLayer\bin\Debug\BackboneApplicationBaseLayer.dll
+C:\Users\kalpers\Documents\GitHub\BackboneApplicationBaseLayer\bin\Debug\BackboneApplicationBaseLayer.pdb
+C:\Users\kalpers\Documents\GitHub\BackboneApplicationBaseLayer\obj\Debug\BackboneApplicationBaseLayer.csprojResolveAssemblyReference.cache
+C:\Users\kalpers\Documents\GitHub\BackboneApplicationBaseLayer\obj\Debug\BackboneApplicationBaseLayer.dll
+C:\Users\kalpers\Documents\GitHub\BackboneApplicationBaseLayer\obj\Debug\BackboneApplicationBaseLayer.pdb

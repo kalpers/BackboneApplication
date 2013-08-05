@@ -1,5 +1,0 @@
-C:\Users\kalpers\Documents\GitHub\BackboneApplication\bin\BackboneApplication.dll
-C:\Users\kalpers\Documents\GitHub\BackboneApplication\bin\BackboneApplication.pdb
-C:\Users\kalpers\Documents\GitHub\BackboneApplication\obj\Debug\BackboneApplication.csprojResolveAssemblyReference.cache
-C:\Users\kalpers\Documents\GitHub\BackboneApplication\obj\Debug\BackboneApplication.dll
-C:\Users\kalpers\Documents\GitHub\BackboneApplication\obj\Debug\BackboneApplication.pdb

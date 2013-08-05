@@ -94,6 +94,7 @@
   <ItemGroup>
     <Content Include="ActivityPages\Login.ascx" />
     <Content Include="ActivityPages\Office\ListPages\MyCaseLoad.ascx" />
+    <Content Include="ActivityPages\Office\ListPages\Services.ascx" />
     <Content Include="Application.aspx" />
     <Content Include="bin\BackboneApplication.dll" />
     <Content Include="bin\BackboneApplication.pdb" />
@@ -126,6 +127,7 @@
     <Content Include="font\fontawesome-webfont.ttf" />
     <Content Include="font\fontawesome-webfont.woff" />
     <Content Include="font\FontAwesome.otf" />
+    <Content Include="Scripts\PageScripts\Page10.js" />
     <Content Include="Scripts\SystemScripts\backbone.marionette.min.js.map">
       <DependentUpon>backbone.marionette.js</DependentUpon>
     </Content>
@@ -187,6 +189,13 @@
     <Compile Include="ActivityPages\Login.ascx.designer.cs">
       <DependentUpon>Login.ascx</DependentUpon>
     </Compile>
+    <Compile Include="ActivityPages\Office\ListPages\Services.ascx.cs">
+      <DependentUpon>Services.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ActivityPages\Office\ListPages\Services.ascx.designer.cs">
+      <DependentUpon>Services.ascx</DependentUpon>
+    </Compile>
     <Compile Include="App_Code\CustomUserControl.cs">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
@@ -216,6 +225,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BackboneApplicationBaseLayer\BackboneApplicationBaseLayer.csproj">
+      <Project>{d2edb7a0-027d-41ea-af16-6cfacb58e6fa}</Project>
+      <Name>BackboneApplicationBaseLayer</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

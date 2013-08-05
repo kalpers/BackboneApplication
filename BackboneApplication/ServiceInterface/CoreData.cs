@@ -88,7 +88,7 @@ namespace BackboneApplication.ServiceInterface
                                 new LeftNavItem
                                 {
                                     DisplayName = "Services",
-                                    ScreenId = 6,
+                                    ScreenId = 10,
                                     TabId = 1,
                                     HasSubMenu = false,
                                     IsSubMenu = false
